@@ -2,46 +2,61 @@
 <html>
     <body>
 <head>
-
-<div>
-    <img src="img/perfil.jpeg" width="50" height="50">   <h1>Player: Esau</h1>
-    
-</div>
-<div>
-    <img src="img/3752504.png"width="30" height="30">
-</div>
+ <link rel="stylesheet" type= "text/css" href="estilo.css">
+    <div class="div">
+ <div class="usuario">
+ <img src="img/usuario.jpeg" width="30" height="30">   <span>spoPlayer</span>
+ </div>
+<div class="Minha_playlist">
 <h2> Minha Playlist</h2>
-<div>
-    <img src="img/th.jpeg">
-    <div>
-        <img src="img/player.jpeg"width="30" height="30">
-    </div>
-    <div>
-        <img src="img/Aleatoria.jpeg"width="30" height="30">
-    </div>
-    <h3> Seguindo</h3>
-    <H5>Mari Fernadez</H5>
 </div>
 <div>
-   <H6>1 Eu Gosto Assim</H6> <img src="img/Eu gosto assim.jpeg" width="50" height="50">
- </div>
- <h6>2 Deixa Eu Viver</h6><img src="img/Deixa eu viver.jpeg" width="50" height="50">
- <div>
-    <h6>3 Seu Brilho Sumiu</h6><img src="img/Seu Brilho Sumiu.jpeg" width="50" height="50">
- </div>
- <div>
-    <h6>4 So De Imaginar</h6><img src="img/So de imaginar.jpeg" width="50" height="50">
- </div>
- <div>
-    <h6>5 Conduta</h6><img src="img/Conduta.jpeg" width="50" height="50">
- </div>
+    <img src="img/th.jpeg" width="250" height="150">
+</div>
+    <div  class="botao"> 
+        <img src="img/anterior.jpeg" width="40" height="40" onclick="anterior()">
+    </div>
+    <div class="botao">
+        <img src="img/playpause.jpeg"width="40" height="40" onclick=" play()">
+    </div>
+    <div class="botao">  
+        <img src="img/proximo.jpeg"  width="40" height="40" onclick="proximo()" >
+    </div>
+    </div>
+    <span> Seguindo</span>
+    <span>Mari Fernadez</span>
+</div>
+<div  class="beleza">
+    <div class="item_tudo">
+         <img class="nom src="
+         <img src="img/Eu gosto assim.jpeg"width="50" height="50"><span> Eu gosto Assim</span>
+        <audio src="Musica/Gustavo Mioto, Mari Fernandez   Eu Gosto Assim.mp3" id="musica1"  controls  onclick="pausar()"> 
+        </audio>
+     </div>
+    <div class="item_tudo">
+        <img src="img/Deixa eu viver.jpeg" width="50" height="50"><span > Deixa Eu Viver     </span>
+        <audio src="Musica/Mari Fernandez   Deixa eu viver.mp3" id="musica2" controls > </audio>
+    </div>
+    <div class="item_tudo">
+        <img src="img/Seu Brilho Sumiu.jpeg" width="50" height="50"><span> Seu Brilho Sumiu     </span>
+        <audio src="Musica/Seu Brilho Sumiu (Let's Bora)   Israel u0026 Rodolffo, MariFernandez    FitDance (Coreografia).mp3" id="musica3" controls></audio>
+    </div>
+    <div class="item_tudo">
+        <img src="img/So de imaginar.jpeg" width="50" height="50"><span> So De Imaginar    </span>
+        <audio src="Musica/Mari Fernandez   SÓ DE IMAGINAR feat. Zé Vaqueiro (DVD Ao Vivo em Fortaleza).mp3" id="musica4" controls></audio>
+    </div>
+    <div class="item_tudo">
+        <img src="img/Conduta.jpeg" width="50" height="50"><span> Conduta    </span>
+        <audio src="Musica/Conduta   Nattan e Mari Fernandez (DVD AO VIVO).mp3" id="musica5" controls></audio>
+
+    </div>
+    </div>
+    
+    
     <ul>
-   <li>
-    <audio controls>
-        <source src="Caminho/para/musica1.mp3" type="audio/mpeg">
-    </audio>
-   </li>
+  <script src="script.js"></script>
     </ul>
 </div>
+    </div>
 </head>
 </body>

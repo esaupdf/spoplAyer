@@ -1,0 +1,71 @@
+
+.gosto_assim{
+    color: rgb(233, 14, 43);
+}
+.Minha_playlist{
+    color: rgb(13, 70, 2);
+    text-align:center;
+}
+.tudo{
+    text-align: center;
+    width: 350px;
+    height: 200px;
+    min-height: 100px;
+    max-height: 300px;
+
+    
+}
+.item_tudo{
+    font-size: 20px;
+    text-align: center;
+}
+.item_tudo h6{
+    float: none;
+    position: absolute;
+    border-width: 20px;
+    
+}
+
+
+
+body{
+  background-image:url("img/Fundo.jpeg")
+}
+
+
+audio{
+    display:none;
+
+
+}
+.botao{
+    display: inline;
+    position: relative;
+    border-left: 20px;
+}
+
+.usuario{
+   font-size: 30px;
+   color: darkgreen;
+}
+div{
+    text-align: center;
+    margin:auto;
+}
+.beleza{
+    text-align: center;
+    padding: 70px;
+      }
+.nome{
+    paddingtext-align: center
+}
+img{
+    display: inline;
+}
+
+
+
+
+
+ 
+
